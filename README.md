@@ -75,7 +75,7 @@ researcher2@3213bbc1d047:~/projects$ chmod u-w,g-w,g+r .project_x.txt
 ```
 
 #### 📸 Output Verification Screenshot:
-![Remediating Hidden File](images/03_change_hidden_file.png)
+![Remediating Hidden File](https://i.imgur.com/cG45LLb.png)
 
 * **Final Solution:** The updated permission string is now compliant with the archiving restrictions, removing all write privileges:
 
@@ -94,7 +94,7 @@ researcher2@5d738f0f927b:~/projects$ chmod g-x drafts
 ```
 
 #### 📸 Output Verification Screenshot:
-![Remediating Directory Access](images/04_change_directory_permissions.png)
+![Remediating Directory Access](https://i.imgur.com/0EuQkai.png)
 
 * **Final Solution:** A final file system check shows that the directory is fully isolated to the owner:
 
