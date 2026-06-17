@@ -39,7 +39,7 @@ drwx--x--  2 researcher2 research_team 4096 Dec  2 15:27 drafts
 ## Step 4: Describe the Permissions String
 * **The Problem:** The 10-character metadata string needs to be analyzed to understand the precise access rights granted to different user classifications.  
 * **Solution Method:** I deconstructed the permission string by breaking down what each character position represents:  
-  * **1st character:** Indicates the file type (`d` for directory, `-` for a regular file)[cite: 72, 73].  
+  * **1st character:** Indicates the file type (`d` for directory, `-` for a regular file).  
   * **2nd-4th characters:** Indicate the read (`r`), write (`w`), and execute (`x`) permissions for the **User (owner)**.  
   * **5th-7th characters:** Indicate the read (`r`), write (`w`), and execute (`x`) permissions for the **Group**.
   * **8th-10th characters:** Indicate the read (`r`), write (`w`), and execute (`x`) permissions for **Other** (anyone else on the system).
