@@ -56,7 +56,7 @@ researcher2@5d738f0f927b:~/projects$ chmod o-w project_k.txt
 ```
 
 #### 📸 Output Verification Screenshot:
-![Remediating Regular File](images/02_change_file_permissions.png)
+![Remediating Regular File](https://i.imgur.com/Ctj3sbg.png)
 
 * **Final Solution:** Verifying the update with `ls -la project_k.txt` confirms that the write access for other has been successfully removed:
 
