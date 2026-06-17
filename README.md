@@ -18,7 +18,7 @@ researcher2@5d738f0f927b:~/projects$ ls -la
 ```
 
 #### 📸 Output Verification Screenshot:
-![Initial Directory Audit](images/01_directory_audit.png)
+![Initial Directory Audit](https://i.imgur.com/mv7i7DN.png)
 
 * **Final Solution:** The command output revealed the following 10-character permission strings for the files and subdirectory:
 
